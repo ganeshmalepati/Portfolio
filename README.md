@@ -1,2 +1,2 @@
 # Portfolio
-In this repository i'm porviding a basic portfolio a my background verification
+In this repository i'm porviding a basic portfolio of my background verification
