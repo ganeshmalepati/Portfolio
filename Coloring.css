@@ -1,0 +1,215 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Navigation bar */
+
+#Home{
+    background-color: #7600bc;
+    padding-bottom: 1cm;
+    margin-top: -1cm;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    height: 5mm;
+}
+
+.topmenu {
+    color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.topmenu:hover {
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.topdiv {
+    float: right;
+    padding-left: 1cm;
+}
+
+.profil_name {
+    float: right;
+    padding-left: 1cm;
+}
+
+.profil_name .contact_info {
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contact_info img{
+    width: 25px;
+    margin-right: 10px;
+    float: left;
+}
+
+h2 {
+    text-align: left;
+    color: #7600bc;
+}
+
+.introduction {
+    text-align: left;
+    font-size: 20px;
+    text-align: left;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    animation-duration: 5s;
+    position: relative;
+}
+
+
+.About_me {
+    display: flex;
+    align-items: center;
+}
+
+#About-me h1 {
+    font-size: 20px;
+    margin-top: 30px;
+    color: #7600bc;
+}
+
+#About-me p{
+    font-size: 20px;
+    color: rgb(red, green, blue);
+}
+
+.profile_image {
+    width: 150px;
+    height: fit-content;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+/*Education*/
+
+.Education p {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+
+/* Skills */
+
+  .All_skills {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+  }
+
+  .Skills {
+    border: 1 px solid gray;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+    width: 2in;
+    font-size: 20px;
+    box-shadow: 0 3px 10px gray;
+  }
+
+  .skill img {
+    height: 35px;
+    align-items: center;
+  }
+
+  .skill h6 {
+    align-items: center;
+    font-size: 15px;
+    color: gray;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+  }
+
+  .Skills p {
+    align-items: center;
+    font-size: 15px;
+    color: gray;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+  }
+
+  .flex_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  /* Projects */
+
+  .projects-contianer {
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+
+  .projects-contianer hr {
+    border: 1px solid lightgray;
+    width: 75%;
+    margin-left: 5cm;
+  }
+
+  .project-card {
+    margin: 0px 15px 15px 30px;
+    padding-bottom: 5px;
+  }
+
+  .project-card h3 {
+    font-size: 25px;
+    margin-left: 30px;
+  }
+
+  .project-card li {
+    font-size: 20px;
+    margin-left: 30px;
+  }
+
+  .iconbutton {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 3%;
+    left: 3%;
+    cursor: pointer;
+  }
+
+  .Certificates h5 {
+    font-size: 15px;
+    margin-left: 40px;
+
+  }
+
+  .Certificates {
+    border: 1px solid gray;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    width: 4in;
+    font-family: 20px;
+    box-shadow: 0px 3px 10px gray;
+  }
+
+  .skill img {
+    margin: 35px;
+    align-items: center;
+  }
